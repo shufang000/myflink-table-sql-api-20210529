@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="flink-shaded-hadoop-2-uber-2.8.3-10.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/flink-shaded-hadoop-2-uber-2.8.3-10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hive-exec-1.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hive-metastore-1.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/libfb303-0.9.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
