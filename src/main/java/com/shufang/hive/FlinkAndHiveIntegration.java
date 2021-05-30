@@ -19,5 +19,9 @@ public class FlinkAndHiveIntegration {
 
         // set the HiveCatalog as the current catalog of the session
         tableEnv.useCatalog("myhive");
+
+
+        System.out.println(tableEnv.getCurrentCatalog());
+        System.out.println(tableEnv.getCurrentDatabase());
     }
 }
