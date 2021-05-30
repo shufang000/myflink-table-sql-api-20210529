@@ -11,44 +11,45 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <flink.family.version>1.10.1</flink.family.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-java</artifactId>
-            <version>1.10.1</version>
+            <version>${flink.family.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-streaming-java_2.12</artifactId>
-            <version>1.10.1</version>
+            <version>${flink.family.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-streaming-scala_2.12</artifactId>
-            <version>1.10.1</version>
+            <version>${flink.family.version}</version>
         </dependency>
         <!-- 1.9之前老的Old Table&SQL planner，这个依赖中已经包括了java‘scala的桥接依赖 -->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-table-planner_2.12</artifactId>
-            <version>1.10.1</version>
+            <version>${flink.family.version}</version>
         </dependency>
 
         <!-- 1.9版本及之后引入的blink blanner<阿里开源的~>，这个依赖中已经包括了java‘scala的桥接依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-table-planner-blink_2.12</artifactId>
-            <version>1.10.1</version>
+            <version>${flink.family.version}</version>
         </dependency>
 
         <!-- 1.9版本及之后引入的blink blanner runtime<阿里开源的~> -->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-table-runtime-blink_2.12</artifactId>
-            <version>1.10.1</version>
+            <version>${flink.family.version}</version>
         </dependency>
 
 
@@ -56,26 +57,26 @@
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-table-api-java-bridge_2.12</artifactId>
-            <version>1.10.1</version>
+            <version>${flink.family.version}</version>
         </dependency>
         <!--TableSQL的scalaAPI依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-table-api-scala-bridge_2.12</artifactId>
-            <version>1.10.1</version>
+            <version>${flink.family.version}</version>
         </dependency>
         <!--用户自定义函数的依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-table-common</artifactId>
-            <version>1.10.1</version>
+            <version>${flink.family.version}</version>
         </dependency>
 
         <!-- Flink 新的CSV format的依赖 -->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-csv</artifactId>
-            <version>1.10.1</version>
+            <version>${flink.family.version}</version>
         </dependency>
 
 
@@ -83,20 +84,20 @@
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-kafka_2.12</artifactId>
-            <version>1.10.1</version>
+            <version>${flink.family.version}</version>
         </dependency>
 
         <!-- Flink 的 ES的连接器 -->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-elasticsearch-base_2.12</artifactId>
-            <version>1.10.1</version>
+            <version>${flink.family.version}</version>
         </dependency>
         <!-- JDBC 连接器-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-jdbc_2.12</artifactId>
-            <version>1.10.1</version>
+            <version>${flink.family.version}</version>
         </dependency>
 
 
