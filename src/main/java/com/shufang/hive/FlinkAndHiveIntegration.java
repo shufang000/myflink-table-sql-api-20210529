@@ -61,9 +61,8 @@ public class FlinkAndHiveIntegration {
 
 
 
-//        tableEnv.sqlUpdate("insert into mytable values ('shufang',36.2)");
+        tableEnv.sqlUpdate("insert into mytable values ('shufang',36.2)");
 
-        mytable.insertInto("mytable");
         tableEnv.execute("");
 
         //stremEnv.execute("");
